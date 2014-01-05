@@ -1,0 +1,161 @@
+* {
+    font-family: arial, sans-serif;
+}
+
+div {
+    position: relative;
+}
+/* Header Formatting */
+
+#header {
+    font-size: small;
+    text-align: right;
+    top: 0.5em;
+    right: 1.8em
+}
+
+.text_links a {
+    position: relative;
+    font-family: arial, sans-serif;
+    text-decoration: none;
+}
+.text_links a:hover {
+    text-decoration: underline;
+}
+
+#header .text_links a{
+    bottom: 1.05em;
+    right: 1em;
+}
+
+#header .text_links a:nth-child(1){
+    right: 6em;
+}
+#header .text_links a:nth-child(2){
+    right: 5.05em;
+}
+#header .text_links a:nth-child(3){
+    right: 4.15em;
+}
+
+.image_links a{
+    display: inline;
+    position: relative;
+}
+
+#header .image_links a:nth-child(1){
+    right: 3.05em;
+    bottom: 0.45em;
+   
+}
+#header .image_links a:nth-child(2){
+    right: 1.9em;
+    bottom: 0.15em;
+}
+#header .image_links a:nth-child(3){
+    right: 0.5em;
+    bottom: -0.23em;
+}
+#header .image_links a:nth-child(4){
+    right: 0.35em;
+    bottom: 0.05em;
+}
+
+/* End of Header Formatting */
+
+/* Content Formatting */
+#content {
+    top: 10em;
+    left: 28%;
+}
+
+#Logo{
+    left: 9.2em;
+    bottom: 0.7em;
+}
+
+#Logo img{
+    height: 5.95em;
+    width: 16.8em;
+}
+
+#searchbar{
+    left: -0.3em;
+    top: 0.2em;
+}
+
+#searchbar input{
+    border: 1px solid #D8D8D8;
+    width: 51.6em;
+    height: 2.35em;
+}
+#searchbar input:hover{
+    border: 1px solid #B8B8B8;
+}
+
+#searchbar img{
+    position: relative;
+    left: -1.77em;
+    top: 0.55em;
+    }
+
+#buttons{
+    left: 10.5em;
+    top: 1em;
+}
+#buttons button:nth-child(2){
+    position:relative;
+    left:0.7em;
+}
+
+.btn-style{
+	border : solid 1px #dcdcdc;
+	border-radius : 3px;
+	moz-border-radius : 3px;
+	font-size : 0.7em;
+    font-weight: bold;
+	color : #000;
+	padding : 7.5px 8px;
+	background-color : #f5f5f5;
+
+}
+.btn-style:hover {
+    border: 1px solid #dff
+    -webkit-box-shadow: 5px 5px 10px #666;
+    -moz-box-shadow: 5px 5px 10px #666;
+    box-shadow:0px 1px 0px 0px #DDD;
+}
+/* End Content Formatting */
+/* Footer Formatting */
+
+#footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 3em;
+    width: 100%;
+    border: 1px solid #dcdcdc;
+    background-color: #f5f5f5;
+    font-size:small;
+    color: #666;
+}
+#left_links {
+    position: absolute;
+    left: 2.3%;
+    bottom: 34%;
+}
+#left_links a:nth-child(2) {
+    left: 17.5%;
+}
+#left_links a:nth-child(3) {
+    left: 35%;
+}
+
+#right_links {
+    position: absolute;
+    right: 2.4%;
+    bottom: 34%;
+}
+#right_links a:nth-child(1) {
+    right: 16%;
+}
